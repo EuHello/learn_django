@@ -1,7 +1,22 @@
 # Learning Django
 
-Note: ideally, Django project name == GitHub project name
+Note: Ideally, Django project name == GitHub project name
 
+## Run Dev Server
+$ python manage.py runserver
+
+## Shell
+$ python manage.py shell
+
+## Models
+### Create tables with
+$ python manage.py migrate
+
+### Update tables with
+$ python manage.py makemigrations polls
+
+### View SQL code
+$ python manage.py sqlmigrate polls 0001
 
 ## Following Django Official tutorial
 1. Writing your first Django app, part 1 
